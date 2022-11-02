@@ -1,5 +1,5 @@
 describe('Visit homepage', () => {
-  it('visit homepage QA' {
+  it('visit homepage QA', {
     env: {
       url: 'https://app.qa.hoh-cloud.apptoku.com',
     },
@@ -9,9 +9,9 @@ describe('Visit homepage', () => {
     cy.url().should('contain', "qa");
   })
 
-  it('visit homepage QA' {
+  it('visit homepage Stage', {
     env: {
-      url: 'https://app.qa.hoh-cloud.apptoku.com',
+      url: 'https://app.stage.hoh-cloud.apptoku.com',
     },
   }, 
   () => {
