@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testQA": "export CYPRESS_lol=qa export CYPRESS_url=https://app.qa.hoh-cloud.apptoku.com/en/; ./node_modules/.bin/cypress run",
+    "testSTAGE": "export CYPRESS_lol=stage export CYPRESS_url=https://app.stage.hoh-cloud.apptoku.com/en/; ./node_modules/.bin/cypress run"
   },
   "author": "Rafal Sz",
   "license": "ISC",

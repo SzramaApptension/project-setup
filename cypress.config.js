@@ -8,6 +8,7 @@ module.exports = defineConfig({
     }
   },
   env: {
-    url: 'http://localhost:1234'
+    url: 'http://localhost:1234',
+    lol: 'qa'
   }
 });
