@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testQA": "./node_modules/.bin/cypress run --config-file cypress.qa.js",
+    "testSTAGE": "./node_modules/.bin/cypress run --config-file cypress.stage.js"
   },
   "author": "Rafal Sz",
   "license": "ISC",
