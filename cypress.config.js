@@ -5,5 +5,9 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    env:{
+      url_qa: "https://app.qa.hoh-cloud.apptoku.com/en/",
+      url_stage: "https://app.stage.hoh-cloud.apptoku.com/en/"
+    }
   },
 });
