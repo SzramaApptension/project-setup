@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "testQA": "npx cypress run",
-    "testStage": "npx cypress run --env url=https://app.stage.hoh-cloud.apptoku.com/",
+    "testSTAGE": "npx cypress run --env url=https://app.stage.hoh-cloud.apptoku.com/",
     "openQA": "./node_modules/.bin/cypress open",
-    "openStage": "./node_modules/.bin/cypress open --env url=https://app.stage.hoh-cloud.apptoku.com/"
+    "openSTAGE": "./node_modules/.bin/cypress open --env url=https://app.stage.hoh-cloud.apptoku.com/"
   },
   "author": "Rafal Sz",
   "license": "ISC",
