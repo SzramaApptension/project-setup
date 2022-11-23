@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "testQA": "./node_modules/.bin/cypress run --config-file cypress.qa.json"
+    "testQA": "./node_modules/.bin/cypress run --config-file cypress.qa.js",
+    "testSTAGE": "./node_modules/.bin/cypress run --config-file cypress.stage.js"
   },
   "author": "Rafal Sz",
   "license": "ISC",
