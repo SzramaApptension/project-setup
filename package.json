@@ -4,11 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testQA": "npx cypress run",
+    "testSTAGE": "npx cypress run --env url=https://app.stage.hoh-cloud.apptoku.com/",
+    "openQA": "./node_modules/.bin/cypress open",
+    "openSTAGE": "./node_modules/.bin/cypress open --env url=https://app.stage.hoh-cloud.apptoku.com/"
   },
   "author": "Rafal Sz",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^10.10.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
   }
 }
